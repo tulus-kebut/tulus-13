@@ -13,8 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST["email"];
     echo "Nama: $name<br>";
     echo "Email: $email<br>";
-} else {
-    echo "Metode permintaan yang diperbolehkan adalah POST.";
 }
 ?>
 </body>
